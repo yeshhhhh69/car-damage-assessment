@@ -10,7 +10,7 @@ It is built with **TensorFlow/Keras** for training and **Streamlit** for deploym
 - Trained deep learning model (`.keras` file) for object detection.  
 - Streamlit app for **real-time prediction** and visualization.  
 - Transfer learning + fine-tuning on pre-trained models for better accuracy.  
-- 🛠Easy-to-run web interface, no ML expertise required.  
+- Easy-to-run web interface, no ML expertise required.  
 
 ---
 
@@ -50,3 +50,19 @@ venv\Scripts\activate      # On Windows
   streamlit run app.py
 
 5. Upload a car image and see the damage detection results!
+
+## Model Details
+
+Architecture: Transfer Learning (e.g., MobileNetV2 / ResNet50 backbone)
+Training Data: Images of cars (damaged vs. whole) structured into training/validation sets.
+Output: Binary classification (Damaged / Not Damaged) or bounding box detection (if extend).
+
+## Future Improvements
+
+Multi-class classification (type of damage: scratch, dent, broken glass, etc.)
+Bounding box segmentation for precise damage location.
+Integration with insurance claim systems.
+
+## Author
+
+Yeshved Salelkar
