@@ -33,10 +33,10 @@ It is built with **TensorFlow/Keras** for training and **Streamlit** for deploym
 
 ---
 
-## ⚙️ Installation & Usage
+## Installation & Usage
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/<your-username>/car-damage-assessment.git
+   git clone https://github.com/yeshhhhh69/car-damage-assessment.git
    cd car-damage-assessment
 2. Create virtual environment (optional but recommended)
    python -m venv venv
